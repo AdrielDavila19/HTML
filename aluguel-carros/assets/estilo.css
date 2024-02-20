@@ -1,0 +1,123 @@
+
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+
+.secao-topo {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.secao-topo p{
+    text-align: center;
+    padding: 16px;
+    font-size: 25px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.secao-largura-limitada {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*secao-capa-de-fudo*/
+
+h1,h2{
+    color: #fff;
+    margin: 0;
+}
+
+.secao-background-capa{
+    min-height: 500px;
+    background-image: url("img/capa.jpg");
+    background-size: cover;
+}
+
+.secao-background-conteudo{
+    text-align: right;
+    background: #00000085;
+    padding: 50px 20px;
+}
+
+/*secao-conteudo*/
+
+h3 {
+    margin: 0;
+}
+
+.secao-conteudo {
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.img-conteudo {
+    width: 250px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.secao-conteudo span {
+    border-left: solid 1px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+/*secao-divisao*/
+
+.secao-divisao h3 {
+    background-color: #6c0000;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/*capo-formularios*/
+
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-conteudo fieldset {
+    margin: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-campo input, .grupo-campo select {
+    margin: 12px 0;
+    height: 25px;
+}
+
+.secao-conteudo button{
+    width: 100%;
+    height: 32px;
+    border: none;
+    color: #fff;
+    background: #d92121;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+footer p{
+    color: #d92121;
+    text-align: center;
+}
