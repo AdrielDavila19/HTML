@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    font-family: tahoma;
+}
+
+.secao{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.paragrafo{
+    margin: 10px auto;
+    text-align: justify;
+    width: 980px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+.topo{
+    background-color:#afddfb;
+}
+
+.topo img{
+    width: 150px;
+}
+
+.paragrafo-topo{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.secao-botaos{
+    font-size: 18px;
+    color: #1d1d1dc9;
+    border-bottom: 2px solid;
+    border-color: #1d1d1d;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.secao-banner{
+    margin: 50px;
+    padding: 0px;
+}
+
+.texto-azul{
+    color: #1d80c1;
+}
+
+.texto-amarelo{
+    color: #fff81b;
+}
+
+h1{
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+h2{
+    color: #1c81c0;
+}
+
+.imagem{
+    width: 450px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.secao-servicos, .secao-contato{
+    background-color: #1c80c1;
+}
+
+h3{
+    color: white;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.paragrafo-servicos{
+    color:white;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+}
+
+.lista-servicos{
+    margin: 40px auto 40px;
+    width: 135px;
+}
+
+.item-lista-servicos{
+    color: white;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.contato{
+    color: white;
+    background-color: #1d1d1d;
+    padding: 13px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.links-gmail{
+    margin: 40px auto 40px;
+    width: 210px;
+}
+
+.item-lista-contato{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.link-contato{
+    background-color: white;
+    color:#1d7fc1de;
+    padding: 2px 5px ;
+    border-radius: 5px;
+}
+
+
+
+
+
